@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    <title>Temple Inn & Suites | Temple Page</title>
+    <meta name="keywords" content="Temple, Temples, Temple Services">
+    <meta name="description" content="Temple Page">
+    <meta name="author" content="Heather Costello">
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="images/temple-logo-new.jpg" alt="logo">
+        <h1 class="name">Temple Inn & Suites</h1>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Home</a>
+            <a href="temples.html" class="active">Temples</a>
+            <div class="dropdown">
+                <button class="dropbtn">Services 
+                <i class="fa fa-caret-down"></i>
+              </button>
+                <div class="dropdown-content">
+                    <a href="services.html">Services</a>
+                    <a href="reception.html">Reception</a>
+                    <a href="full-time-missionaries.html">Full-time Temple Missionaries</a>
+                </div>
+            </div>
+            <a href="reservations.html">Reservations</a>
+            <a href="contact.html">Contact</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+    </header>
+    <div class="background">
+        <div class="headertemple">
+            <h2>Temples Around the World</h2>
+            <h3>Click on any of the four dedicated temples pictured to find the Temple's information, schedules, history and more.</h3>
+        </div>
+        <main>
+            <div class="gallery">
+                <figure class="fig">
+                    <a href="nauvoo.html"><img src="images/Rnauvootemple.jpeg" alt="nauvootemple"></a>
+                    <figcaption class="desc">Nauvoo, Illinois Temple</figcaption>
+                </figure>
+
+                <figure class="fig">
+                    <a href="rome.html"><img src="images/Rromeitalytemple.jpeg" alt="romeitalytemple"> </a>
+                    <figcaption class="desc">Rome, Italy Temple</figcaption>
+
+                </figure>
+
+                <figure class="fig">
+                    <a href="brighamcity.html"><img src="images/brighamcitytemple.jpeg" alt="brighamcitytemple"></a>
+                    <figcaption class="desc">Brigham City, Utah Temple</figcaption>
+
+                </figure>
+
+                <figure class="fig">
+                    <a href="madrid.html"><img src="images/Rmadridspaintemple.jpeg" alt="madridspaintemple"></a>
+                    <figcaption class="desc">Madrid, Spain Temple</figcaption>
+
+                </figure>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <p class="foot"><a href="resources.html" target="_blank">Resources</a> |
+            <span id="showDate"></span> | Temple Inn & Suites | &copy; 2019 <br>
+        </p>
+    </footer>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
+</body>
+
+</html>
