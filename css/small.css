@@ -530,3 +530,10 @@
                 h3 {
                     font-family: 'Lora', serif;
                 }
+                /* RESOURCE PAGE */
+                
+                .resource {
+                    text-align: center;
+                    background-color: antiquewhite;
+                    padding: 20px;
+                }
